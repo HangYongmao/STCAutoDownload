@@ -39,9 +39,9 @@ void main() //主程序
 	{
 		if (x>60)
 		{
-			DYKZD = 1;
+			DYKZD = 1;//电源控制端关闭
 			delayms(500);
-			DYKZD = 0;
+			DYKZD = 0;//电源控制端打开
 			delayms(60000);
 			x = 0;
 		}
